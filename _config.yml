@@ -1,4 +1,5 @@
-title: Streamdata Gallery Hotels
+title: Streamdata API Gallery - Hotels
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
 url: hotels.streamdata.gallery
 tag: Hotels
 markdown: kramdown
