@@ -1,11 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: Amadeus
-  description: Amadeus API is a toolkit designed for travel agencies who want to develop
-    their own travel products rather than using off-the-shelf solutions. With this
-    tool, you can build your very own customised applications that link in a stable
-    and secure dialogue with our Global Distribution System (GDS).
+  title: Amadeus Get Hotels Property Code
+  description: "This API allows you to quickly see the detailed information of a single
+    hotel, including descriptions, address, GPS location, amenities, awards, lowest
+    priced room and all room prices and booking information. \n\nThis API gives you
+    more information on a specific property. Optional parameters such as show_sold_out
+    & rooms can be used to show sold out rooms and all available rooms. \n\nThe API
+    is based on our high-speed hotel pricing cache, which is also used to power the
+    Amadeus Hotel Search Engine application. Results are returned very quickly, response
+    times are generally under 2s. Our cache has great global coverage and is constantly
+    refreshed with the latest prices."
   contact:
     name: Amadeus Innovation and Research
     url: https://sandbox.amadeus.com
