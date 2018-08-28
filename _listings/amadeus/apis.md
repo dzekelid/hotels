@@ -7,28 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sand
 x-kinRank: "8"
 x-alexaRank: "4309"
 tags: Hotels
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amadeus Get Hotels Search Airport
-  x-api-slug: amadeus
+- name: Amadeus - Get Hotels Search Airport
+  x-api-slug: hotelssearchairport-get
   description: |-
     A fast Hotel shopping API to see which hotels are available in a given area, on a given day and displays their lowest prices. With this API you can find out the price of the cheapest daily rate for all hotels near a given airport.
 
     This API allows you to quickly see the locations of hotels near a given airport, and what prices in that area look like. Note that hotel images are not available to users outside of Amadeus, as we are not licensed to redistribute them. The API is based on our high-speed hotel pricing cache, which is also used to power the Amadeus Hotel Search Engine application. Results are returned very quickly, response times are generally under 2s. Our cache has great global coverage and is constantly refreshed with the latest prices.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//hotels/search-airport
-  tags: Hotels, Search, Airport
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchairport-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchairport-get-openapi.md
-- name: Amadeus Get Hotels Search Box
-  x-api-slug: amadeus
+- name: Amadeus - Get Hotels Search Box
+  x-api-slug: hotelssearchbox-get
   description: "A fast Hotel shopping API to see which hotels are available in a given
     area, on a given day and displays their lowest prices. With this API you can find
     out the price of the cheapest daily rate for all hotels within a specified geographical
@@ -45,15 +46,16 @@ apis:
     refreshed with the latest prices."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//hotels/search-box
-  tags: Hotels, Search, Box
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchbox-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchbox-get-openapi.md
-- name: Amadeus Get Hotels Search Circle
-  x-api-slug: amadeus
+- name: Amadeus - Get Hotels Search Circle
+  x-api-slug: hotelssearchcircle-get
   description: "A fast Hotel shopping API to see which hotels are available in a given
     area, on a given day and displays their lowest prices. With this API you can find
     out the price of the cheapest daily rate for all hotels within a specified radius
@@ -70,15 +72,16 @@ apis:
     prices."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//hotels/search-circle
-  tags: Hotels, Search, Circle
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchcircle-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelssearchcircle-get-openapi.md
-- name: Amadeus Get Hotels Property Code
-  x-api-slug: amadeus
+- name: Amadeus - Get Hotels Property Code
+  x-api-slug: hotelsproperty-code-get
   description: "This API allows you to quickly see the detailed information of a single
     hotel, including descriptions, address, GPS location, amenities, awards, lowest
     priced room and all room prices and booking information. \n\nThis API gives you
@@ -90,26 +93,19 @@ apis:
     refreshed with the latest prices."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//hotels/{property_code}
-  tags: Hotels, Property, Code
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelsproperty-code-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/hotelsproperty-code-get-openapi.md
-- name: Amadeus
-  x-api-slug: amadeus
-  description: Amadeus travel technology helps businesses connect to the global travel
-    ecosystem, manage operations more effectively and serve travellers better than
-    ever
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
-  humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2
-  tags: Hotels
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/amadeus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://amadeus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://amadeus.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
 - type: x-documentation

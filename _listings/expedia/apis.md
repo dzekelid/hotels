@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedi
 x-kinRank: "9"
 x-alexaRank: "197733"
 tags: Hotels
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Expedia Search
-  x-api-slug: expedia
+- name: Expedia - Search
+  x-api-slug: mapihotelsearch-get
   description: |-
     Mobile API Hotels Search
 
@@ -21,210 +21,231 @@ apis:
     See the examples below for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/search
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelsearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelsearch-get-openapi.md
-- name: Expedia Get Offers
-  x-api-slug: expedia
+- name: Expedia - Get Offers
+  x-api-slug: mapihoteloffers-get
   description: Mobile API Hotels Offers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/offers
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteloffers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteloffers-get-openapi.md
-- name: Expedia Get Offers
-  x-api-slug: expedia
+- name: Expedia - Get Offers
+  x-api-slug: mapihoteloffersv3-get
   description: Mobile API Hotels Offers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/offers/v3
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteloffersv3-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteloffersv3-get-openapi.md
-- name: Expedia Create A Trip
-  x-api-slug: expedia
+- name: Expedia - Create A Trip
+  x-api-slug: mapihoteltripcreate-post
   description: Mobile API Hotels Create Trip
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/create
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcreate-post-openapi.md
-- name: Expedia Checkout
-  x-api-slug: expedia
+- name: Expedia - Checkout
+  x-api-slug: mapihoteltripcheckout-post
   description: Mobile API Hotels Checkout
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/checkout
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcheckout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcheckout-post-openapi.md
-- name: Expedia Hotel Checkout With JSON Request Body
-  x-api-slug: expedia
+- name: Expedia - Hotel Checkout With JSON Request Body
+  x-api-slug: mapihoteltripv2checkout-post
   description: Mobile API Hotel Checkout V2
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/V2/checkout
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripv2checkout-post-openapi.md
-- name: Expedia Get Required Checkout Fields
-  x-api-slug: expedia
+- name: Expedia - Get Required Checkout Fields
+  x-api-slug: mapihoteltripcheckoutfields-get
   description: Service that returns the fields that are required or optional for a
     given point of sale.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/checkoutfields
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcheckoutfields-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcheckoutfields-get-openapi.md
-- name: Expedia Cancel Enquiry
-  x-api-slug: expedia
+- name: Expedia - Cancel Enquiry
+  x-api-slug: mapihoteltripcancelenquiry-get
   description: Cancel Enquiry for hotel, pass in itinerary id, email address of trip
     owner.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/cancelEnquiry
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcancelenquiry-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcancelenquiry-get-openapi.md
-- name: Expedia Cancel Enquiry
-  x-api-slug: expedia
+- name: Expedia - Cancel Enquiry
+  x-api-slug: mapihoteltripv2cancelenquiry-get
   description: Cancel Enquiry for hotel, pass in itinerary id, email address of trip
     owner.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/V2/cancelEnquiry
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripv2cancelenquiry-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripv2cancelenquiry-get-openapi.md
-- name: Expedia Product
-  x-api-slug: expedia
+- name: Expedia - Product
+  x-api-slug: mapihotelproduct-get
   description: Hotel Product
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/product
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelproduct-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelproduct-get-openapi.md
-- name: Expedia Info
-  x-api-slug: expedia
+- name: Expedia - Info
+  x-api-slug: mapihotelinfo-get
   description: Hotel Information
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/info
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelinfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelinfo-get-openapi.md
-- name: Expedia Cancel Trip
-  x-api-slug: expedia
+- name: Expedia - Cancel Trip
+  x-api-slug: mapihoteltripcancel-post
   description: Hotel Trip Cancellation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/trip/cancel
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihoteltripcancel-post-openapi.md
-- name: Expedia Cancel Room
-  x-api-slug: expedia
+- name: Expedia - Cancel Room
+  x-api-slug: mapihotelroomscancel-post
   description: Hotel Room Cancellation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/rooms/cancel
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelroomscancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelroomscancel-post-openapi.md
-- name: Expedia Get Package Offers
-  x-api-slug: expedia
+- name: Expedia - Get Package Offers
+  x-api-slug: apipackageshoteloffers-get
   description: Mobile API Packages
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///api/packages/hotelOffers
-  tags: Travel,Packages,Offers,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/apipackageshoteloffers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/apipackageshoteloffers-get-openapi.md
-- name: Expedia Checkout
-  x-api-slug: expedia
+- name: Expedia - Checkout
+  x-api-slug: mapilxtripcheckout-post
   description: Mobile API Lx Checkout
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/lx/trip/checkout
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapilxtripcheckout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapilxtripcheckout-post-openapi.md
-- name: Expedia LPAS Search
-  x-api-slug: expedia
+- name: Expedia - LPAS Search
+  x-api-slug: mapihotelsearchv3-get
   description: Mobile API Hotel Search using LPAS
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/hotel/search/v3
-  tags: Travel,Hotels
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelsearchv3-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/mapihotelsearchv3-get-openapi.md
-- name: Expedia
-  x-api-slug: expedia
-  description: Expedia is the leader in travel and technology and is the worlds largest
-    travel company. The EAN Developer Hub gives developers FREE access to our highly
-    flexible APIs that power cutting-edge websites, mobile apps, and much more. Some
-    of the best travel applications on the market are powered by the EAN API. Learn
-    more reasons to partner with EAN by taking a look at our brochure and watching
-    our video. The world of travel awaits you!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
-  humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x/
-  tags: Hotels
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hotels/master/_listings/expedia/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://evrythng.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://expedia.stack.network
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase
